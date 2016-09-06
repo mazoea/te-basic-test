@@ -14,7 +14,7 @@ echo $PREF
 curl $CURLOPTS "$URL/extract/?async=False&type=text&id=$TARGETDATAPATH/example.1.png"
 
 echo $PREF
-curl $CURLOPTS "$URL/extract/?async=False&type=text&id=$TARGETDATAPATH/example.1.png&extended=True" | tail %TOTAIL%
+curl $CURLOPTS "$URL/extract/?async=False&type=text&id=$TARGETDATAPATH/example.1.png&extended=True" | tail $TOTAIL
 
 echo $PREF
 curl $CURLOPTS "$URL/extract/?async=False&type=text&id=$TARGETDATAPATH/example.2.png"
