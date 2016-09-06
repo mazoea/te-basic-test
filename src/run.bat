@@ -20,7 +20,7 @@ echo %PREF%
 curl %CURLOPTS% "%URL%/extract/?async=False&type=text&id=%TARGETDATAPATH%/example.1.pdf"
 
 echo %PREF%
-curl %CURLOPTS% "%URL%/extract/?async=False&type=text&id=%TARGETDATAPATH%/example.1.pdf&extended=True"
+curl %CURLOPTS% "%URL%/extract/?async=False&type=datamine&id=%TARGETDATAPATH%/example.1.pdf&extended=True" | tail %TOTAIL%
 
 echo %PREF%
 curl %CURLOPTS% "%URL%/extract/?async=False&type=text&id=%TARGETDATAPATH%/example.1.pdf&force-ocr=True" 
