@@ -1,4 +1,4 @@
-set URL=https://localhost:8280/v1
+set URL=http://localhost:8280/v1
 set TARGETDATAPATH=/opt/mazoea/te-basic-test/src
 set TOTAIL=-30
 set CURLOPTS=-sS

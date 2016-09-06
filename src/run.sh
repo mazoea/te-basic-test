@@ -1,6 +1,6 @@
 #!/bin/bash
 if [[ "x$URL" == "x" ]]; then
-    URL=https://localhost:8280/v1
+    URL=http://localhost:8280/v1
 fi
 TARGETDATAPATH=/opt/mazoea/te-basic-test/src
 TOTAIL=-30
